@@ -1,0 +1,45 @@
+body {
+    background-color: #015085;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white
+}
+
+/* Stile per il contenitore principale */
+.container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 350px;
+    margin-top: 1px;
+}
+
+/* Stile base per ogni box */
+.box {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    background-color: #3498db;
+    color: white;
+    font-size: 18px;
+}
+
+/* Stile per i box con testo "Fizz" */
+.fizz {
+    background-color: #2ecc71;
+}
+
+/* Stile per i box con testo "Buzz" */
+.buzz {
+    background-color: #f1c40f;
+}
+
+/* Stile per i box con testo "FizzBuzz" */
+.fizzbuzz {
+    background-color: #e74c3c;
+}
